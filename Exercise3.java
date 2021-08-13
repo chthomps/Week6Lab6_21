@@ -11,7 +11,7 @@ public class Exercise3 {
 			return result;
 		}
 		 
-		//Here, there is only one loop. The i= i*2 function means that N will grow half as quickly compared to i. 
+		//Here, there is only one loop. The i= i*2 function means that i doubles for each iteration. 
 		//As i grows, the loop has "fewer" times left to cycle (we start approaching i<N more quickly). 
 		//This seems like the signature of logarithmic growth, or O(logN) complexity.
 
